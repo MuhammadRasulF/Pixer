@@ -247,7 +247,7 @@ img {
 }
 
 
-.services-list-item {
+.services-list-item { 
     width: 320px;
     padding-left: 0;
     margin-right: 70px;
@@ -256,7 +256,13 @@ img {
     border-radius: 5px;
 }
 
+.services-list-item:hover {
+    background-color: antiquewhite;
+}
 
+.services-list-item:active {
+    background-color: #00BAFC;
+}
 
 .item-img {
     margin-top: 24px;
@@ -272,6 +278,7 @@ img {
     line-height: 130%;
     color: #000000;
 }
+
 
 .item-desc {
     margin-top: 16px;
